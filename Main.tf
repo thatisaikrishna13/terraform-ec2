@@ -30,7 +30,7 @@ resource "aws_security_group" "Jenkins-sg" {
 }
 
 
-resource "aws_instance" "web" {
+resource "aws_instance" "sai-ami" {
   ami                    = "ami-0807eb45a1bda42b1"
   instance_type          = "t2.medium"
   key_name               = "saithati"
